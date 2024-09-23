@@ -7,7 +7,7 @@
 select * from goal;
 ```
 
-![Tehtävä 1]()
+![Tehtävä 1](03_Tehtävä _1.png)
 
 ### Tehtävä 2
 
