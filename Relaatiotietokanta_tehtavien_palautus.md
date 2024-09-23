@@ -15,7 +15,7 @@ select * from goal;
 select name, type from airport where iso_country = "FI";
 ```
 
-![Tehtävä 2]()
+![Tehtävä 2](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_2.png)
 
 ### Tehtävä 3
 
@@ -23,7 +23,7 @@ select name, type from airport where iso_country = "FI";
 select name from airport where iso_country = "FI" order by name;
 ```
 
-![Tehtävä 3]()
+![Tehtävä 3](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_3.png)
 
 ### Tehtävä 4
 
@@ -31,7 +31,7 @@ select name from airport where iso_country = "FI" order by name;
 select name, type from airport where iso_country = "FI" order by type, name;
 ```
 
-![Tehtävä 4]()
+![Tehtävä 4](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_4.png)
 
 ### Tehtävä 5
 
@@ -39,7 +39,7 @@ select name, type from airport where iso_country = "FI" order by type, name;
 select name from country where name like "F%";
 ```
 
-![Tehtävä 5]()
+![Tehtävä 5](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_5.png)
 
 ### Tehtävä 6
 
@@ -47,7 +47,7 @@ select name from country where name like "F%";
 select name from country where name like "%F%";
 ```
 
-![Tehtävä 6]()
+![Tehtävä 6](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_6.png)
 
 ### Tehtävä 7
 
@@ -55,7 +55,7 @@ select name from country where name like "%F%";
 select location from game where screen_name = "Vesa";
 ```
 
-![Tehtävä 7]()
+![Tehtävä 7](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_7.png)
 
 ### Tehtävä 8
 
@@ -63,7 +63,7 @@ select location from game where screen_name = "Vesa";
 select co2_consumed from game where screen_name = "Ilkka";
 ```
 
-![Tehtävä 8]()
+![Tehtävä 8](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_8.png)
 
 ### Tehtävä 9
 
@@ -71,7 +71,7 @@ select co2_consumed from game where screen_name = "Ilkka";
 select distinct co2_budget from game;
 ```
 
-![Tehtävä 9]()
+![Tehtävä 9](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/03_Tehta%CC%88va%CC%88_9.png)
 
 
 # 04 - Where-osan liitosehto harjoitukset
@@ -83,7 +83,7 @@ select distinct co2_budget from game;
 select name as "country name" , type as "airport name" from airport where iso_country = "IS";
 ```
 
-![Tehtävä 1]()
+![Tehtävä 1](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_1.png)
 
 ### Tehtävä 2
 
@@ -91,7 +91,7 @@ select name as "country name" , type as "airport name" from airport where iso_co
 select name as "airport name", type from airport where type like "large_airport" and iso_country = "FR";
 ```
 
-![Tehtävä 2]()
+![Tehtävä 2](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_2.png)
 
 ### Tehtävä 3
 
@@ -101,7 +101,7 @@ from airport, country
 where airport.iso_country = country.iso_country and country.continent = "AN";
 ```
 
-![Tehtävä 3]()
+![Tehtävä 3](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_3.png)
 
 ### Tehtävä 4
 
@@ -111,7 +111,7 @@ from airport, game
 where location = ident and screen_name = "Heini";
 ```
 
-![Tehtävä 4]()
+![Tehtävä 4](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_4.png)
 
 ### Tehtävä 5
 
@@ -121,7 +121,7 @@ from airport, game
 where location = ident and screen_name = "Heini";
 ```
 
-![Tehtävä 5]()
+![Tehtävä 5](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_5.png)
 
 ### Tehtävä 6
 
@@ -129,9 +129,9 @@ where location = ident and screen_name = "Heini";
 select airport.name
 from airport, game
 where location = ident and screen_name = "Ilkka";
-```sql
+```
 
-![Tehtävä 6]()
+![Tehtävä 6](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_6.png)
 
 ### Tehtävä 7
 
@@ -141,7 +141,7 @@ from airport, game, country
 where location = ident and airport.iso_country = country.iso_country  and screen_name = "Ilkka";
 ```
 
-![Tehtävä 7]()
+![Tehtävä 7](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_7.png)
 
 ### Tehtävä 8
 
@@ -151,7 +151,7 @@ from goal, goal_reached, game
 where game.id = game_id and goal.id = goal_id and screen_name = "Heini";
 ```
 
-![Tehtävä 8]()
+![Tehtävä 8](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_8.png)
 
 ### Tehtävä 9
 
@@ -161,7 +161,7 @@ from airport, game, goal, goal_reached
 where ident = location and game.id = game_id and goal.id = goal_id and goal.name = "CLOUDS" and screen_name = "Ilkka";
 ```
 
-![Tehtävä 9]()
+![Tehtävä 9](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_9.png)
 
 ### Tehtävä 10
 
@@ -171,7 +171,7 @@ from country, airport, game, goal, goal_reached
 where airport.iso_country = country.iso_country and ident = location and game.id = game_id and goal.id = goal_id and screen_name = "Ilkka" and goal.name = "CLOUDS";
 ```
 
-![Tehtävä 10]()
+![Tehtävä 10](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/04_Tehta%CC%88va%CC%88_10.png)
 
 # 05 - Join harjoitukset
 
@@ -183,7 +183,7 @@ from country inner join airport on airport.iso_country = country.iso_country
 where country.name = "Finland" and scheduled_service = "yes";
 ```
 
-![Tehtävä 1]()
+![Tehtävä 1](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/05_Tehta%CC%88va%CC%88_1.png)
 
 ### Tehtävä 2
 
@@ -192,7 +192,7 @@ select screen_name, airport.name
 from game inner join airport on location = ident;
 ```
 
-![Tehtävä 2]()
+![Tehtävä 2](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/05_Tehta%CC%88va%CC%88_2.png)
 
 ### Tehtävä 3
 
@@ -201,7 +201,7 @@ select screen_name, country.name
 from game inner join airport on location = ident inner join country on airport.iso_country = country.iso_country;
 ```
 
-![Tehtävä 3]()
+![Tehtävä 3](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/05_Tehta%CC%88va%CC%88_3.png)
 
 ### Tehtävä 4
 
@@ -210,7 +210,7 @@ select airport.name, screen_name
 from airport left join game on ident = location where name like "%Hels%";
 ```
 
-![Tehtävä 4]()
+![Tehtävä 4](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/05_Tehta%CC%88va%CC%88_4.png)
 
 ### Tehtävä 5
 
@@ -219,7 +219,7 @@ select name, screen_name
 from goal left join goal_reached on goal.id = goal_id left join game on game.id = game_id;
 ```
 
-![Tehtävä 5]()
+![Tehtävä 5](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/05_Tehta%CC%88va%CC%88_5.png)
 
 # 06 - Sisäkysely harjoitukset
 
@@ -235,7 +235,7 @@ where name like "Satsuma%"
 );
 ```
 
-![Tehtävä 1]()
+![Tehtävä 1](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/06_Tehta%CC%88va%CC%88_1.png)
 
 ### Tehtävä 2
 
@@ -249,7 +249,7 @@ where iso_country = "MC"
 );
 ```
 
-![Tehtävä 2]()
+![Tehtävä 2](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/06_Tehta%CC%88va%CC%88_2.png)
 
 ### Tehtävä 3
 
@@ -267,7 +267,7 @@ where name = "CLOUDS"
 );
 ```
 
-![Tehtävä 3]()
+![Tehtävä 3](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/06_Tehta%CC%88va%CC%88_3.png)
 
 ### Tehtävä 4
 
@@ -280,7 +280,7 @@ from airport
 );
 ```
 
-![Tehtävä 4]()
+![Tehtävä 4](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/06_Tehta%CC%88va%CC%88_4.png)
 
 ### Tehtävä 5
 
@@ -294,7 +294,7 @@ where game.id=game.id and goal.id=goal_id and screen_name="Heini"
 );
 ```
 
-![Tehtävä 5]()
+![Tehtävä 5](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/06_Tehta%CC%88va%CC%88_5.png)
 
 # 07 - Koostetieto kyselyt harjoitukset
 
@@ -305,7 +305,7 @@ select max(elevation_ft)
 from airport;
 ```
 
-![Tehtävä 1]()
+![Tehtävä 1](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_1.png)
 
 ### Tehtävä 2
 
@@ -315,7 +315,7 @@ from country
 group by continent;
 ```
 
-![Tehtävä 2]()
+![Tehtävä 2](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_2.png)
 
 ### Tehtävä 3
 
@@ -326,7 +326,7 @@ where id = game_id
 group by screen_name;
 ```
 
-![Tehtävä 3]()
+![Tehtävä 3](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_3.png)
 
 ### Tehtävä 4
 
@@ -339,7 +339,7 @@ from game)
 ;
 ```
 
-![Tehtävä 4]()
+![Tehtävä 4](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_4.png)
 
 ### Tehtävä 5
 
@@ -352,7 +352,7 @@ order by count(*) desc
 limit 50;
 ```
 
-![Tehtävä 5]()
+![Tehtävä 5](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_5.png)
 
 ### Tehtävä 6
 
@@ -364,7 +364,7 @@ group by country.iso_country
 having count(*) > 1000;
 ```
 
-![Tehtävä 6]()
+![Tehtävä 6](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_6.png)
 
 ### Tehtävä 7
 
@@ -377,7 +377,7 @@ from airport)
 ;
 ```
 
-![Tehtävä 7]()
+![Tehtävä 7](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_7.png)
 
 ### Tehtävä 8
 
@@ -393,7 +393,7 @@ from airport)
 );
 ```
 
-![Tehtävä 8]()
+![Tehtävä 8](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_8.png)
 
 ### Tehtävä 9
 
@@ -404,7 +404,7 @@ where id = game_id and screen_name = "Vesa"
 group by screen_name;
 ```
 
-![Tehtävä 9]()
+![Tehtävä 9](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_9.png)
 
 ### Tehtävä 10
 
@@ -417,11 +417,11 @@ from airport
 );
 ```
 
-![Tehtävä 10]()
+![Tehtävä 10](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/07_Tehta%CC%88va%CC%88_10.png)
 
 # 08 - Päivityskyselyt harjoitukset
 
-### Tehtvä 1
+### Tehtävä 1
 
 ```sql
 update game
@@ -429,7 +429,7 @@ set location = (select ident from airport where name = "Nottingham Airport"), co
 where screen_name = "Vesa";
 ```
 
-![Tehtävä 1]()
+![Tehtävä 1](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/070efbeeea9733fc07f7330781a57bcc15b035cc/08_Tehta%CC%88va%CC%88_1.png)
 
 
 
