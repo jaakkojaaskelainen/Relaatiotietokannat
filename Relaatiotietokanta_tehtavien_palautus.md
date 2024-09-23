@@ -7,7 +7,7 @@
 select * from goal;
 ```
 
-![Tehtävä 1](03_Tehtävä _1.png)
+![Tehtävä 1](https://github.com/jaakkojaaskelainen/Relaatiotietokannat/blob/07e244f9378ad73caab4564c06bd109d9c109ab0/03_Tehta%CC%88va%CC%88%20_1.png)
 
 ### Tehtävä 2
 
